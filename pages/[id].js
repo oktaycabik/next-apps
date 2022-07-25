@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 import products from "../data.json"
-const product = () => {
+const Product = () => {
     const router = useRouter()
     console.log('router', router.query.id)
      const product = products.find(pro =>pro.id=== Number(router.query.id))
@@ -13,4 +13,4 @@ const product = () => {
   )
 }
 
-export default product
+export default Product
