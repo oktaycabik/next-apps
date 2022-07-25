@@ -1,0 +1,15 @@
+[
+    {    
+        "id":1,
+        "name":"araba"
+    }, 
+    {    
+        "id":2,
+        "name":"ev"
+    },
+    {    
+        "id":3,
+        "name":"koltuk"
+    }
+
+]
