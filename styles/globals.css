@@ -24,3 +24,80 @@ a {
     background: white;
   }
 }
+.contain-header{
+  background-color: aliceblue;
+  height: 175px;
+  flex-direction: column;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.top-header{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center !important;
+  background-color: white;
+}
+.top-header .register{
+  font-size: 12px;
+  text-decoration: underline;
+
+}
+.top-header .register-be{
+  font-size: 12px;
+  text-decoration: underline;
+  padding-left: 10px;
+
+}
+.top-header .tel-number{
+  font-size: 16px;
+ font-weight: 700;
+  padding-left: 10px;
+color: #e83d34;
+}
+.top-header .e-mail{
+  font-size: 16px;
+  
+  padding-left: 10px;
+
+}
+.brand-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding-top: 20px;
+}
+.brand-header .logo{
+  height: 100px;
+  width: 150px;
+}
+.brand-header .search-bar{
+  height: 37px;
+  min-width: 600px;
+  background-color: transparent;
+  outline: none;
+  color: black;
+  border: 1px solid #dddddd;
+  padding-left: 10px;
+}
+.bottom-header ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-header ul li{
+list-style: none;
+background-color: white;
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+height: 40px;
+transition: all .2s;
+}
+.bottom-header ul li:hover{
+background-color: #e83d34;
+color: white;
+}
